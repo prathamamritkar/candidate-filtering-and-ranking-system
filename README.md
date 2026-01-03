@@ -105,17 +105,18 @@ finalScore = (
 ### Installation & Running
 
 ```bash
-# Navigate to project directory
-cd "c:\Users\Pratham\OneDrive\Desktop\Candidate Filtering and Ranking System"
+# Clone the repository
+git clone https://github.com/prathamamritkar/candidate-filtering-and-ranking-system.git
+cd candidate-filtering-and-ranking-system
 
-# Install dependencies (if not already installed)
+# Install dependencies
 npm install
 
 # Start development server
 npm run dev
 ```
 
-**Access the app**: http://localhost:3001 (or http://localhost:3000)
+**Access the app**: http://localhost:3000
 
 ### Build for Production
 
@@ -496,7 +497,7 @@ Match reasons help explain rankings:
 
 Verify your setup is working:
 
-- [ ] App loads at http://localhost:3001
+- [ ] App loads at http://localhost:3000
 - [ ] You see 4 tabs: Job Description, Filters, Candidates, Results
 - [ ] Can paste job description and extract requirements
 - [ ] Green alert shows extracted data
